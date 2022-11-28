@@ -74,4 +74,19 @@ CREATE OR REPLACE VIEW v_czechia_pay_FTE AS
 	ORDER BY cp.payroll_year;
 	
 SELECT * FROM v_czechia_pay_FTE;
+ 
+
+CREATE OR REPLACE VIEW v_czechia_food_price AS
+ 	SELECT
+ 		YEAR(cp.date_from) AS year,
+ 		round(avg(cp.value),2)AS avg_food_price,
+ 		cpc.name AS product_name,
+ 		cpc.price_value,
+		cpc.price_unit
+ 	FROM czechia_price AS cp
+ 	LEFT JOIN czechia_price_category AS cpc
+ 		ON cp.category_code = cpc.code
+ 	GROUP BY cp.date_from, cpc.name, cpc.price_value, cpc.price_unit;
+
+SELECT * FROM v_czechia_food_price;
 
