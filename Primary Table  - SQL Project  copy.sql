@@ -131,7 +131,7 @@ CREATE TABLE IF NOT EXISTS t_tereza_kotkova_project_SQL_primary_final AS
 	FROM v_cz_average_yearly_pay_fte AS fte
 	LEFT JOIN v_cz_yearly_weighted_average_food_price AS fp
 	ON fte.`YEAR` = fp.`year`;
-
+	
 SELECT * FROM t_tereza_kotkova_project_SQL_primary_final;
 
 
