@@ -90,3 +90,17 @@ CREATE OR REPLACE VIEW v_czechia_food_price AS
 
 SELECT * FROM v_czechia_food_price;
 
+
+
+CREATE OR REPLACE VIEW v_cz_yearly_weighted_average_food_price AS 
+	SELECT 
+	year,
+	round(sum(avg_food_price)/count(avg_food_price),2) AS weighted_average_food_price,
+	product_name,
+	price_value,
+	price_unit
+FROM v_czechia_food_price 
+GROUP BY YEAR, product_name, price_value, price_unit;
+
+
+SELECT * FROM v_cz_yearly_weighted_average_food_price;
