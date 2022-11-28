@@ -104,3 +104,17 @@ GROUP BY YEAR, product_name, price_value, price_unit;
 
 
 SELECT * FROM v_cz_yearly_weighted_average_food_price;
+
+
+
+CREATE OR REPLACE VIEW v_cz_average_yearly_pay_fte AS 
+	SELECT
+		avg(quarterly_avg_gross_wage),
+		YEAR,
+		industry_branch 
+	FROM v_czechia_pay_fte
+	GROUP BY YEAR, industry_branch;
+
+SELECT * FROM v_cz_average_yearly_pay_fte;
+	
+	
