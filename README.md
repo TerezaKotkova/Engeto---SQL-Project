@@ -21,7 +21,7 @@ Questions:
 
 Wages in Czech Republic incresed over the years, the best years were between 2000 - 2009. They rised the most in these industries: 
 Informační a komunikační činnosti, Peněžnictví a pojišťovnictví, Výroba a rozvod elektřiny, plynu, tepla a klimatiz. vzduchu.
- Between 2014 - 2016 they were descaling in just one industry (mostly Těžba a dobývání). The worstresults accured between the years 2020 - 2021 in these industries: 
+ Between 2014 - 2016 they were descaling in just one industry (mostly Těžba a dobývání). The worste results accured between the years 2020 - 2021 in these industries: 
 Ubytování, stravování a pohostinství, Činnosti v oblasti nemovitosti, Vzdělávání, Zemědělství, lesnictví, rybářství, Kulturní, zábavní a rekreační činnosti. 
 
 2.  How many litres of milk and how many kilograms of bread can be bought in the first and last comparable periods in the available price and wage data. 
