@@ -94,3 +94,10 @@ WHERE percentage_price_diff IN(
 	WHERE percentage_price_diff < '0');
 	
 
+
+SELECT 
+	name,
+	sum(percentage_price_diff) AS total_percentage_diff
+FROM t_ price_percentage_difference
+GROUP BY name
+ORDER BY sum(percentage_price_diff);
