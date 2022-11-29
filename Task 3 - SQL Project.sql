@@ -30,3 +30,19 @@ CREATE TABLE IF NOT EXISTS t_price_percentage_difference AS
 	
 SELECT * FROM t_price_percentage_difference;
 
+
+SELECT 
+	name,
+	price,
+	YEAR,
+	name2,
+	price2,
+	year2,
+	percentage_price_diff 
+FROM t_price_percentage_difference
+WHERE percentage_price_diff IN(
+	SELECT 
+	MIN(percentage_price_diff)
+	FROM t_price_percentage_difference);
+
+
