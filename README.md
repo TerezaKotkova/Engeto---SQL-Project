@@ -26,6 +26,9 @@ Ubytování, stravování a pohostinství, Činnosti v oblasti nemovitosti, Vzd�
 
 2.  How many litres of milk and how many kilograms of bread can be bought in the first and last comparable periods in the available price and wage data. 
 
+From source data of Český statistický úřad we are able to compare first data for 2006 and last data for 2018. Customer with an average monthly gross income in 2006 was able to buy 1466 litres of milk and in 2018 the amount was 1670 litres. In 2006 he was able to buy 1313 kg of bread and in 2018 1365 kg of bread. 
+
+
 3. Which price in food category is increasing slowest (has the lowest year-on-year percentage increase?)
 
 4. Is there a year in which the year-on-year increase in food prices was significantly higher than wage growth (greater than 10%)?
