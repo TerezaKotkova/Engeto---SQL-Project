@@ -68,3 +68,21 @@ ORDER BY percentage_price_diff DESC;
 SELECT * FROM t_industry_percentage_price_diff
 ORDER BY percentage_gross_wage_diff DESC;
 
+
+
+
+SELECT 
+	wages.YEAR,
+	wages.year2,
+	round(avg(wages.percentage_gross_wage_diff),2) AS avg_percentage_industry_increase,
+	food.YEAR,
+	food.year2,
+	round(avg(food.percentage_price_diff),2) AS avg_percentage_food_increase
+FROM t_price_percentage_difference AS food
+JOIN t_industry_percentage_price_diff AS wages
+ON food.YEAR = wages.YEAR AND food.year2 = wages.year2
+GROUP BY food.`year` ;
+
+
+
+
