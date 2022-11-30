@@ -19,10 +19,11 @@ Questions:
 
 1. Are the wages rising in all industries over the years, or are they descaling in some of them?
 
-Wages in Czech Republic incresed over the years, the best years were between 2000 - 2009. They rised the most in these industries: 
-Informační a komunikační činnosti, Peněžnictví a pojišťovnictví, Výroba a rozvod elektřiny, plynu, tepla a klimatiz. vzduchu.
- Between 2014 - 2016 they were descaling in just one industry (mostly Těžba a dobývání). The worste results accured between the years 2020 - 2021 in these industries: 
-Ubytování, stravování a pohostinství, Činnosti v oblasti nemovitosti, Vzdělávání, Zemědělství, lesnictví, rybářství, Kulturní, zábavní a rekreační činnosti. 
+Wages in Czech Republic mostly increased over the years, the highest increase was between 2000-2001 in Informační a komunikační činnosti industry by 15.21 %. The highest decrease was between 2012 - 2013 in Peněžnictví a pojišťovnictví industry by 8.83%. Doprava a skladovani industry had the smallest difference valued 1kc between 2012 - 2013. 
+
+
+The most decreasing industry between 2000 - 2021 is Těžba a dobývání.
+The most increasing  industries between 2000 - 2021 are Peněžnictví a pojišťovnictví, Zpracovatelský průmysl, Ostatní činnosti.  
 
 2.  How many litres of milk and how many kilograms of bread can be bought in the first and last comparable periods in the available price and wage data. 
 
