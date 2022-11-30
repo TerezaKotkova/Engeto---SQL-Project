@@ -84,3 +84,12 @@ FROM (
 	ON a.industry_branch = b.industry_branch AND a.YEAR = b.YEAR - 1
 ORDER BY percentage_gross_wage_diff;
 
+
+SELECT 
+	industry_branch,
+	count(industry_branch)
+FROM v_percentage_price_difference
+WHERE percentage_gross_wage_diff < 0
+GROUP BY industry_branch;
+
+
