@@ -42,6 +42,11 @@ The smallest price differences in overal was for Jakostní víno bílé by 8.1 %
 
 4. Is there a year in which the year-on-year increase in food prices was significantly higher than wage growth (greater than 10%)?
 
+Mutual compared data are from the period 2006 - 2018.
+Gross wages had increased the most by 7.88 % in year in 2017 - 2018. And food prices had increased the most by 9.26 % in year 2006 - 2007 
+
+None of the researched data have crossed the line of 10 % increase year by year. Food price grows slightly faster than gross wages over the measured period.
+
 5. Does the level of GDP effect changes in wages and food prices? Or, if the GDP increases more significantly in one year, will this be reflected in food prices or wages in the same or the following year by a more significant increase?
 Or, if the GDP increases more significantly in one year, will this be reflected in food prices or wages in the same or the following year by a more significant increase?
 
