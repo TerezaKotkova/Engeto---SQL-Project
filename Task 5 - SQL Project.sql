@@ -1,9 +1,6 @@
 /* Task 5
 
-Does the level of GDP effect changes in wages and food prices? Or, 
-if the GDP increases more significantly in one year, 
-will this be reflected in food prices or wages in the same or the following year BY
-a more significant increase?
+Does the level of GDP effect changes in wages and food prices? 
 Or, if the GDP increases more significantly in one year, will this be reflected IN
 food prices or wages in the same or the following year by a more significant increase?
 
