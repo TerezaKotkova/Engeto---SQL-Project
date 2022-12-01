@@ -37,3 +37,28 @@ WHERE `year`  IS NULL;
 SELECT count(country)
 FROM countries
 WHERE continent IS NULL;
+
+
+
+
+CREATE OR REPLACE VIEW v_europe_info_for_secondary_table AS 
+	SELECT 
+		e.country,
+		e.`year`,
+		e.GDP,
+		e.population,
+		e.gini,
+		c.continent 
+	FROM economies AS e
+	JOIN countries AS c 
+		ON e.country  = c.country
+	WHERE c.continent  = 'Europe'
+		AND e.`year` BETWEEN '2006' AND '2021'
+		AND e.population  IS NOT NULL
+		AND e.GDP IS NOT NULL 
+		AND gini IS NOT NULL
+	ORDER BY e.country, e.year;
+	
+SELECT * FROM v_europe_info_for_secondary_table;
+
+
