@@ -33,3 +33,14 @@ CREATE OR REPLACE VIEW v_yearly_gdp AS
 		GROUP BY t2.YEAR, t2.GDP
 		) AS b 
 		ON a.YEAR = b.YEAR - 1;
+	
+	
+		
+CREATE OR REPLACE VIEW v_year_food_prices_percentage AS
+	SELECT 
+		YEAR,
+		year2,
+		round(sum(percentage_price_diff)/count(percentage_price_diff),2) AS avg_percentage_food_prices
+	FROM t_price_percentage_difference
+	GROUP BY YEAR, year2
+	ORDER BY year;
