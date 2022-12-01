@@ -54,3 +54,8 @@ CREATE OR REPLACE VIEW v_year_wages_percentage AS
 	FROM t_industry_percentage_price_diff
 	GROUP BY year, year2
 	ORDER BY year;
+	
+
+SELECT * FROM v_yearly_gdp;
+SELECT * FROM v_year_food_prices_percentage;
+SELECT * FROM v_year_wages_percentage;
