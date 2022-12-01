@@ -61,4 +61,9 @@ CREATE OR REPLACE VIEW v_europe_info_for_secondary_table AS
 	
 SELECT * FROM v_europe_info_for_secondary_table;
 
+CREATE TABLE IF NOT EXISTS t_tereza_kotkova_project_SQL_secondary_final AS
+	SELECT * FROM v_europe_info_for_secondary_table;
+
+SELECT * FROM t_tereza_kotkova_project_SQL_secondary_final;
+
 
