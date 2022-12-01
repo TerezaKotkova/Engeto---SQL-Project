@@ -37,13 +37,13 @@ In the prepared table we can see indivudal food prices and how prices had increa
 The smallest price difference we can see from 2017 - 2018 (142.58 kc - 142.45 kc) for Eidamská cihla by 0.09 % dicreased. 
 The smallest price increased was in 2008 - 2009 (84.4 kc - 84.41kc ) for Rostlinný roztíratelný tuk by 0.01 %.
 
-In overal of the measured period (2006 - 2018) the biggest percentage price differnces we can see for Cukr krystalový decreased by 23.03 % and the biggest increased for Papriky by 87.53 % 
+In overal of the measured period (2006 - 2018) the biggest percentage price differences we can see for Cukr krystalový decreased by 23.03 % and the biggest increased for Papriky by 87.53 % 
 The smallest price differences in overal was for Jakostní víno bílé by 8.1 %,  Banány žluté by 9.69 %, Rajská jablka červená kulatá -8.88 %. 
 
 4. Is there a year in which the year-on-year increase in food prices was significantly higher than wage growth (greater than 10%)?
 
 Mutual compared data are from the period 2006 - 2018.
-Gross wages had increased the most by 7.88 % in year in 2017 - 2018. And food prices had increased the most by 9.26 % in year 2006 - 2007 
+Gross wages had increased the most by 7.88 % in 2017 - 2018. And food prices had increased the most by 9.26 % in year 2006 - 2007 
 
 None of the researched data have crossed the line of 10 % increase year by year. Food price grows slightly faster than gross wages over the measured period.
 
