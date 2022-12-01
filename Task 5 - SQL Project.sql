@@ -44,3 +44,13 @@ CREATE OR REPLACE VIEW v_year_food_prices_percentage AS
 	FROM t_price_percentage_difference
 	GROUP BY YEAR, year2
 	ORDER BY year;
+	
+
+CREATE OR REPLACE VIEW v_year_wages_percentage AS
+	SELECT 
+		YEAR,
+		year2,
+		round(sum(percentage_gross_wage_diff)/count(percentage_gross_wage_diff),2) AS avg_percentage_wages
+	FROM t_industry_percentage_price_diff
+	GROUP BY year, year2
+	ORDER BY year;
