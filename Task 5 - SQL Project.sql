@@ -59,3 +59,20 @@ CREATE OR REPLACE VIEW v_year_wages_percentage AS
 SELECT * FROM v_yearly_gdp;
 SELECT * FROM v_year_food_prices_percentage;
 SELECT * FROM v_year_wages_percentage;
+
+
+CREATE TABLE IF NOT EXISTS t_task5_final_table AS 
+	SELECT 
+		gdp.year1,
+		gdp.year2,
+		gdp.percentage_GDP_diff AS GDP,
+		food.avg_percentage_food_prices AS Food,
+		wage.avg_percentage_wages AS Wages
+	FROM v_yearly_gdp AS gdp
+	JOIN v_year_food_prices_percentage AS food
+		ON gdp.year1 = food.YEAR AND gdp.year2 = food.year2
+	JOIN v_year_wages_percentage AS wage
+		ON gdp.year1 = wage.YEAR AND gdp.year2 = wage.year2;
+	
+SELECT * FROM t_task5_final_table
+ORDER BY gdp DESC;
