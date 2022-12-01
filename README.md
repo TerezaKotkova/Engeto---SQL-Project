@@ -47,6 +47,15 @@ Gross wages had increased the most by 7.88 % in year in 2017 - 2018. And food pr
 
 None of the researched data have crossed the line of 10 % increase year by year. Food price grows slightly faster than gross wages over the measured period.
 
-5. Does the level of GDP effect changes in wages and food prices? Or, if the GDP increases more significantly in one year, will this be reflected in food prices or wages in the same or the following year by a more significant increase?
+5. Does the level of GDP effect changes in wages and food prices?
 Or, if the GDP increases more significantly in one year, will this be reflected in food prices or wages in the same or the following year by a more significant increase?
 
+Researched data shows that the highest increase of GDP is between years:
+2006 - 2007 by 5.57 %
+2014 - 2015 by 5.39 %
+2016 - 2017 by 5.17 %
+
+Gross wages increased same years as GDP.
+We are not able to say the same about food prices. Food prices were up and down. 
+
+Gross wages were increasing following year little bit more then food, but we are not able to say if it was reflected by GDP. 
