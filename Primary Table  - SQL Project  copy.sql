@@ -79,7 +79,7 @@ SELECT * FROM v_czechia_pay_FTE;
 CREATE OR REPLACE VIEW v_czechia_food_price AS
  	SELECT
  		YEAR(cp.date_from) AS year,
- 		round(avg(cp.value),2)AS avg_food_price,
+ 		round(avg(cp.value),2) AS avg_food_price,
  		cpc.name AS product_name,
  		cpc.price_value,
 		cpc.price_unit
