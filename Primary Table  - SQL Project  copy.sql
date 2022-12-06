@@ -109,7 +109,7 @@ SELECT * FROM v_cz_yearly_weighted_average_food_price;
 
 CREATE OR REPLACE VIEW v_cz_average_yearly_pay_fte AS 
 	SELECT
-		avg(quarterly_avg_gross_wage),
+		avg(quarterly_avg_gross_wage) AS quarterly_avg_gross_wage,
 		YEAR,
 		industry_branch 
 	FROM v_czechia_pay_fte
@@ -121,7 +121,7 @@ SELECT * FROM v_cz_average_yearly_pay_fte;
 
 CREATE TABLE IF NOT EXISTS t_tereza_kotkova_project_SQL_primary_final AS 
 	SELECT 
-		fte.`avg(quarterly_avg_gross_wage)` AS avg_gross_wage,
+		fte.quarterly_avg_gross_wage,
 		fte.`YEAR`,
 		fte.industry_branch,
 		fp.weighted_average_food_price,
